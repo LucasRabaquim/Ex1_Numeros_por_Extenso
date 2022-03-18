@@ -14,9 +14,9 @@ public class Lucas_Rafa_01 {
         Scanner entrada = new Scanner(System.in);
         String numeroEntrada = entrada.nextLine();
         
-        int c = (int)(numeroEntrada.charAt(0));
-        int d = (int)(numeroEntrada.charAt(1));
-        int u = (int)(numeroEntrada.charAt(2));
+        int c = Integer.parseInt(String.valueOf(numeroEntrada.charAt(0)));
+        int d = Integer.parseInt(String.valueOf(numeroEntrada.charAt(1)));
+        int u = Integer.parseInt(String.valueOf(numeroEntrada.charAt(2)));
         
 
         System.out.print(numero[0][c] + " e " + numero[1][d] + " e " + numero[2][u]);
@@ -55,3 +55,4 @@ public class Lucas_Rafa_01 {
     }
     
 }
+
